@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="formChecker.js"></script>
+    </head>
+    <body>
+    
+        <form action="customerBackend.php" onsubmit="return verify()" method="post">
+            <h1>Plant Store</h1>
+                <p>
+                    Username: <input type="email" id="un" name="un"><br>
+                    Password: <input type="password" id="pw" name="pw">
+                </p>
+
+            <h2>Plants for Sale</h2>
+                <table class="Plants">
+                    <tr>
+                        <th>Aloe Vera</th>
+                        <th>Sungold Tomato</th>
+                        <th>Geranium</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="aloePlant.jpeg"><br>
+                            Aloe vera<br>
+                            Price: $4.99<br>
+                            Quantity: <input type="number" name="aloeQuantity"><br>
+                        </td>
+                        <td>
+                            <img src="tomatoe.jpeg"><br>
+                            Sungold Tomato<br>
+                            Price: $16.00<br>
+                            Quantity: <input type="number" name="tomatoQuantity"><br>
+                        </td>
+                        <td>
+                            <img src="geranium.jpeg"><br>
+                            Geranium<br>
+                            Price: $9.00<br>
+                            Quantity: <input type="number" name="geraniumQuantity"><br>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <table class="shipping">
+                    <h3>Shipping</h3>
+                    <tr>
+                        <th>Length</th>
+                        <th>Cost</th>
+                        <th>Selection</th>
+                    </tr>
+                    <tr>
+                        <td>7 Day</td>
+                        <td>Free</td>
+                        <td><input type="radio" id="7day" name="ship" value="7 Day"></td>
+                    </tr>
+                    <tr>
+                        <td>3 Day</td>
+                        <td>$5.00</td>
+                        <td><input type="radio" id="3day" name="ship" value="3 Day"></td>
+                    </tr>
+                    <tr>
+                        <td>Overnight</td>
+                        <td>$50.00</td>
+                        <td><input type="radio" id="overnight" name="ship" value="Overnight"></td>
+                    </tr>
+                </table>
+                
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </p>
+        </form>
+    </body>
+</html>

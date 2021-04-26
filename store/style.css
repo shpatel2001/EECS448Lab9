@@ -1,0 +1,40 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+td{
+        text-align: center;
+}
+
+th{
+    font-size: 15pt;
+}
+
+table{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.shipping{
+    width: 60%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
