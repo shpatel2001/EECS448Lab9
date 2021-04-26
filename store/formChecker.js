@@ -10,7 +10,7 @@ function verify() {
     var checkUser = false;
     var checkPassword = false;
 
-    if(aloeNum == "" || tomatoNum == "" || geraniumNum == "" || aloeNum < 0 || tomatoNum < 0 || GeraniumNum < 0)
+    if(aloeNum == "" || tomatoNum == "" || geraniumNum == "" || aloeNum < 0 || tomatoNum < 0 || geraniumNum < 0)
     {
         alert("Please select a quantity for all items.");
         selectItems = false;
