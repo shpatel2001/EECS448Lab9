@@ -38,3 +38,29 @@ p{
     margin-right: auto;
 }
 
+table.receipt, tr.receipt, td.receipt, th.receipt
+{
+  border: 2px solid black;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-style: oblique;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.receipt.number
+{
+  background-color: lightblue;
+}
+
+.receipt.text
+{
+  background-color: white;
+}
+
+.receipt.total
+{
+  background-color: lightgreen;
+  font-weight: bolder;
+}
+
